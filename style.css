@@ -1,0 +1,106 @@
+@media (max-width: 2500px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: rgba(50, 84, 119, 0.8);
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: 'Muli', sans-serif;
+  color: #F38181;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h2, h3 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+  color: #F38181;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+h3 {
+  color: #756C83;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+a{
+  text-decoration: none;
+  color: #3B393C;
+}
+
+a:hover {
+    color: #F38181;
+}
+
+
+li {
+  display: inline-block;
+}
+
+ul {
+  padding: 0;
+}
+
+#avatar{
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+  box-shadow: 0px 0px 15px grey;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 1);
+  text-align: center;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px 30px 10px 30px;
+}
+
+.synopsis {
+  text-align: justify;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.footer-text {
+  font-size: 10px;
+}
+
+.movie-image {
+  border-radius: 5px;
+}
+
+.social-network {
+  font-size: 25px;
+  letter-spacing: 20px;
+  display:inline-block;
+}
